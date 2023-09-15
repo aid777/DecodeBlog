@@ -1,0 +1,43 @@
+header{
+    padding: 20px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head-logo{
+    width: 30%;
+}
+.head-logo h1{
+    font-size: 50px;
+    font-weight: 500;
+    color: #00a2dc;
+}
+
+.head-search{
+    display: flex;
+    align-items: center;
+    width: 40%;
+    border: 1px solid #fff;
+}
+.head-search input{
+    padding: 10px 10px;
+    color: #fff;
+}
+.head-search button{
+    padding: 8px 9px;
+    color: #fff;
+    background-color: #00a2dc;
+    border: none;
+}
+.head-search button>svg>path{
+    fill: #fff;
+}
+
+.head-buttons a{
+    text-decoration: none;
+    background-color: #00a2dc;
+    padding: 6px 9px;
+    border: none;
+}
+
