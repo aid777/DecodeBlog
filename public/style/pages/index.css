@@ -3,7 +3,7 @@
     background-color: #fff;
     min-height: 75vh;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .main-content{
@@ -24,6 +24,17 @@
     text-align: center;
 }
 
+.main-content h4{
+    padding: 20px 0;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.main-content h5{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
 
 .categories{
     display: flex;
@@ -44,4 +55,8 @@
     margin-bottom: 20px;
     text-decoration: none;
     color: #00a2dc;
+}
+.main-under-content{
+    display: flex;
+    justify-content: space-between;
 }

@@ -18,6 +18,10 @@ app.get('/registr', (req, res) =>{
     res.render("registr")
 })
 
+app.get('/profile' , (req,res) =>{
+    res.render("profile")
+})
+
 const PORT = 3000;
 app.listen(PORT, () =>{
     console.log('start');
